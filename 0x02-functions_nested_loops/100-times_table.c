@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_times_tables - prints the n times table, starting with 0
+ * print_times_table - prints the n times table, starting with 0
  * @n: a given integer
  * Return: nothing
  */
@@ -14,7 +14,7 @@ void print_times_table(int n)
 		for (a = 0; a <= n; a++)
 		{
 			_putchar('0');
-			
+
 			for (b = 1; b <= n; b++)
 			{
 				_putchar(',');
