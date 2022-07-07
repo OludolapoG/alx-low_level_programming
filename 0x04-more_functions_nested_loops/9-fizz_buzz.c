@@ -2,7 +2,7 @@
 
 /**
  * main - prints 1-100, with Fizz, Buzz & FizzBuzz for multiples of 3, 5 & both
- * @n: is the numbers being printed
+ *
  * Return: Always 0
  */
 int main(void)
@@ -27,6 +27,8 @@ int main(void)
 		{
 			printf("%d ", n);
 		}
+		if (n == 100)
+			continue;
 	}
 
 	printf("\n");
