@@ -15,7 +15,7 @@ char *_strcpy(char *dest, char *src)
 	while (pointer >= 0)
 	{
 		*(dest+ pointer) = *(src + pointer);
-		if (*(src + point) == '\0')
+		if (*(src + pointer) == '\0')
 			break;
 		pointer++;
 	}
