@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 	for (i = 0; i < bytes; i++)
 	{
 		printf("%02x", opcds[i] & 0xFF);
-		if (i = bytes - 1)
+		if (i != bytes - 1)
 			printf(" ");
 	}
 
