@@ -2,7 +2,6 @@
 
 /**
  * print_all - prints anything
- * @char: character to be printed
  * @format: a list of types of arguments passed to the function
  * Return: nothing
  */
@@ -47,6 +46,5 @@ void print_all(const char * const format, ...)
 				break;
 		} i++;
 	}
-	printf("\n");
-	va_end(print);
+	printf("\n"), va_end(print);
 }
