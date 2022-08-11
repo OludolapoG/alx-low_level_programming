@@ -3,7 +3,6 @@
 /**
  * list_len - gets list length
  * @h: singly linked list
- * @nodes: number of list elements
  * Return: nummber of list elements
  */
 size_t list_len(const list_t *h)
